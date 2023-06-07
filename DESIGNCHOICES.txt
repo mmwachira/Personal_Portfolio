@@ -1,0 +1,13 @@
+DESIGN CHOICES
+1. I used external css for most of the css designs to allow for global styling across the website.
+2. I integrated JavaScript to have more responsiveness.
+
+CHALLENGES FACED
+1. Having responsive menus
+2. Mobile friendliness
+3. Hosting on a web server
+
+HOW CHALLENGES WERE SOLVED
+1. I used JavaScript to tackle responsiveness.
+2. I used responsive CSS design techniques as well as media queries.
+3. I was able to host on infinityfreeapp.com but on opening the website there were some problems with the layout so in the end I decided to submit the code without hosting on the web server.
