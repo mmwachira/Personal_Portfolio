@@ -27,7 +27,12 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -60,7 +65,8 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #b8a07e;
   text-decoration: underline;
 }
@@ -112,7 +118,8 @@ p {
   text-transform: uppercase;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #fff;
 }
 
@@ -335,6 +342,7 @@ nav ul li a {
 .owl-item {
   float: left;
 }
+
 .services-block span {
   margin: 10px 0;
   position: relative;
@@ -359,7 +367,7 @@ nav ul li a {
 }
 
 
-.services-carousel  .owl-stage-outer {
+.services-carousel .owl-stage-outer {
   overflow: hidden;
 }
 
@@ -425,7 +433,8 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+#portfolio .portfolio-list .nav li:hover,
+#portfolio .portfolio-list .nav li.filter-active {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -468,24 +477,36 @@ nav ul li a {
   width: 100%;
   height: 100%;
   gap: 20px;
-  
+
 }
+
+.poster-container-portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  max-width: 100%;
+  width: 50%
+}
+
 .menu-container {
   max-width: 100%;
   width: 33%;
   height: 100%;
 
 }
+
 .gameplay1-container {
   max-width: 100%;
   width: 33%;
   height: 100%;
 
 }
+
 .gameplay2-container {
-    max-width: 100%;
-    width: 33%;
-    height: 100%;
+  max-width: 100%;
+  width: 33%;
+  height: 100%;
 }
 
 .game-poster-responsive {
@@ -497,6 +518,15 @@ nav ul li a {
   margin-right: auto;
 }
 
+.game-poster-responsive-portrait {
+  display: block;
+  max-width: 100%;
+  width: 70%;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .game-img-responsive {
   display: block;
   max-width: 100%;
@@ -504,14 +534,21 @@ nav ul li a {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  
+
+}
+
+video {
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /*-----------------------------------------------------------------------------------*/
 /*  Interests
 /*-----------------------------------------------------------------------------------*/
 
-#interests,  #interests-blog {
+#interests,
+#interests-blog {
   height: auto;
   width: 100%;
   background: #f7f7f7;
@@ -591,12 +628,13 @@ nav ul li a {
   padding-bottom: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
 }
 
 
-#contact  #sendmessage {
+#contact #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -606,7 +644,7 @@ nav ul li a {
   margin: 15px;
 }
 
-#contact  #errormessage {
+#contact #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -616,7 +654,9 @@ nav ul li a {
   margin: 15px;
 }
 
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+#contact #sendmessage.show,
+#contact #errormessage.show,
+#contact .show {
   display: block;
 }
 
@@ -687,4 +727,4 @@ nav ul li a {
 
 .credits {
   font-size: 13px;
-}
+}s
